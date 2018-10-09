@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.board{
+    width: 250px; 
+    border: 2px solid #000000;  
+    letter-spacing: 5px;
+    text-align: center;    
+}
+</style>
+</head>    
+<body>
+<div class="board">
+<p id="demo">5MOKOH목</p>
+<p>좌표를 입력해주세요</p>
+<input id="numb" type="number,number" min="1"max="16">
+<button onclick="myFunction()">입력</button>
+<script>
+var text="";
+var a=[];
+var b=[a];
+
+do{  
+for(b=0;b<16;b++){
+    text+=1}
+    text +=1+"<br>"; a++;
+}
+while(a<=16)
+document.getElementById("demo").innerHTML=text;
+function myFunction(a,b){
+    var txt="";
+    var a,b = document.getElementById("numb");
+    return [a][b];
+    document.getElementById("demo").innerHTML="●"
+}
+
+
+</script>
+
+</div>
+</body>
+</html>
